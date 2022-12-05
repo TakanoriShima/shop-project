@@ -8,7 +8,8 @@ import Top from './components/pages/Top.vue'
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" /> -->
-  <Top />
+  <!-- <Top /> -->
+  <router-view />
 </template>
 
 <style>
