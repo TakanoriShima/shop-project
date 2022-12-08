@@ -10,8 +10,6 @@ const routes = [
   {
     path: "/menu",
     component: Menu,
-    // name: 'Menu',
-    // component: () => import(/* webpackChunkName: "Menu" */ '../components/pages/Menu.vue')
   },
 ];
 
