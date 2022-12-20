@@ -8,6 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fullcalendar/core": "^5.11.3",
+    "@fullcalendar/vue3": "^5.11.3",
+    "firebase": "^9.15.0",
     "vue": "^3.2.25",
     "vue-router": "^4.1.6"
   },

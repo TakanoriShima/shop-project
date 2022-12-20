@@ -1,6 +1,7 @@
 import * as vueRouter from "vue-router";
 import Top from "../components/pages/Top.vue";
 import Menu from "../components/pages/Menu.vue";
+import Post from "../components/pages/Post.vue";
 
 const routes = [
   {
@@ -10,6 +11,10 @@ const routes = [
   {
     path: "/menu",
     component: Menu,
+  },
+  {
+    path: "/post",
+    component: Post,
   },
 ];
 
