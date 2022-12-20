@@ -10,6 +10,9 @@
     <div class="row">
       <a href="/post" class="text-center offset-sm-3 col-sm-6 text-danger">Post</a>
     </div>
+    <div class="row">
+      <a href="/upload" class="text-center offset-sm-3 col-sm-6 text-danger">Upload</a>
+    </div>
     <div class="row mt-2">
       <div class="col-sm-6"><img src="../../assets/images/1.jpg"></div>
       <div class="col-sm-6">

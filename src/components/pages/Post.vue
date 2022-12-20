@@ -19,9 +19,10 @@ onValue(ref(db, 'posts'), (snapshot) => {
 
 const sendMessage = () => {
   if (data.input_title === "" || data.input_content === "") return;
-  push(ref(db, "posts"), [data.input_title, data.input_content]) // 追加
-  data.input_title = "";
-  data.input_content = "";
+    push(ref(db, "posts"), [data.input_title, data.input_content]) // 追加
+    data.input_title = "";
+    data.input_content = "";
+  
 }
 </script>
 
@@ -35,7 +36,7 @@ const sendMessage = () => {
           {{index + 1}}
         </div>
         <div class="message">
-          {{post[0]}} : {{post[1]}}
+          {{post[0]}} : {{post[1]}}: <img src="{{post[2]}}" />
         </div>
       </div>
     </div>
@@ -49,7 +50,7 @@ const sendMessage = () => {
         内容を入力
       </p>
       <input type="text" name="content" v-model="data.input_content">
-      <button class="send-message" @click="sendMessage">送信</button>
+      <button class="send-message" @click="sendMessage" id="send">送信</button>
     </div>
   </div>
 </template>

@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import VueRouter from "./router/index"; // 追加
+
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
@@ -18,4 +20,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 initializeApp(firebaseConfig);
+
 createApp(App).use(VueRouter).mount("#app"); // 変更
